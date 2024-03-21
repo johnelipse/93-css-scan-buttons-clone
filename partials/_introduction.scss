@@ -1,0 +1,267 @@
+.introduction {
+    min-height: 50vh;
+    background-color: #ffffff;
+    padding: 5rem 3rem;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .section-heading {
+      text-align: center;
+      h3 {
+        font-size: 30px;
+        font-weight: 600;
+        //   margin-bottom: 20px;
+      }
+    }
+    .section-paragraph {
+      text-align: center;
+      margin-bottom: 20px;
+      a {
+        font-size: 16px;
+        img {
+          width: 80px;
+        }
+      }
+      span {
+        border: 1px solid gray;
+        padding: 0.1rem 0.5rem;
+      }
+      img:hover {
+        border: 1px solid black;
+        background-color: white;
+        transform: scale(1.1);
+        transition: 0.5s;
+        width: 8rem;
+        object-fit: contain;
+        height: 2rem;
+      }
+      p {
+        margin-top: 1rem;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .section-buttons {
+      display: flex;
+      gap: 1rem;
+      .btn {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        gap: 1.8rem;
+        justify-content: center;
+        align-items: center;
+      &:hover{
+        transform: translateY(-5px);
+        transition: 0.5s;
+      }
+      }
+      .btn-1 {
+        background-color: #2e68b2;
+        color: white;
+      }
+      .btn-2 {
+        background-color: black;
+        color: white;
+      }
+      .btn-3 {
+        background-color: #e73333;
+        color: white;
+      }
+      .btn-4 {
+        background-color: #81d246;
+        color: white;
+      }
+    }
+  }
+  @media (max-width: 484px) {
+    .introduction {
+      min-height: 50vh;
+      background-color: #ffffff;
+      padding: 4rem 1rem;
+      padding-top: 8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      .section-heading {
+        text-align: center;
+        h3 {
+          font-size: 25px;
+          font-weight: 600;
+          //   margin-bottom: 20px;
+        }
+      }
+      .section-paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+        a {
+          font-size: 16px;
+          img {
+            width: 80px;
+          }
+        }
+        span {
+          border: 1px solid gray;
+          padding: 0.1rem 0.5rem;
+        }
+        img:hover {
+          border: 1px solid black;
+          background-color: white;
+          transform: scale(1.1);
+          transition: 0.5s;
+          width: 8rem;
+          object-fit: contain;
+          height: 2rem;
+        }
+        p {
+          margin-top: 1rem;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .section-buttons {
+        display: flex;
+        gap: 1rem;
+        .pin {
+          display: none;
+        }
+        .pin-main {
+         width: 3rem;
+          display: flex;
+          text-align: center;
+          gap: 0rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .btn {
+          font-size: 14px;
+          font-weight: normal;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          border: none;
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .btn-1 {
+          background-color: #2e68b2;
+          color: white;
+        }
+        .btn-2 {
+          background-color: black;
+          color: white;
+        }
+        .btn-3 {
+          background-color: #e73333;
+          color: white;
+        }
+        .btn-4 {
+          background-color: #81d246;
+          color: white;
+        }
+      }
+    }
+  }
+  @media (max-width: 360px) {
+    .introduction {
+      min-height: 50vh;
+      background-color: #ffffff;
+      padding: 4rem 1rem;
+      padding-top: 8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      .section-heading {
+        text-align: center;
+        h3 {
+          font-size: 25px;
+          font-weight: 600;
+          //   margin-bottom: 20px;
+        }
+      }
+      .section-paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+        a {
+          font-size: 16px;
+          img {
+            width: 80px;
+          }
+        }
+        span {
+          border: 1px solid gray;
+          padding: 0.1rem 0.5rem;
+        }
+        img:hover {
+          border: 1px solid black;
+          background-color: white;
+          transform: scale(1.1);
+          transition: 0.5s;
+          width: 8rem;
+          object-fit: contain;
+          height: 2rem;
+        }
+        p {
+          margin-top: 1rem;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .section-buttons {
+        display: flex;
+        gap: 1rem;
+        .pin {
+          display: none;
+        }
+        .pin-main {
+         width: 3rem;
+          display: flex;
+          text-align: center;
+          gap: 0rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .btn {
+          font-size: 14px;
+          font-weight: normal;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          border: none;
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .btn-1 {
+          background-color: #2e68b2;
+          color: white;
+        }
+        .btn-2 {
+          background-color: black;
+          color: white;
+        }
+        .btn-3 {
+          background-color: #e73333;
+          color: white;
+        }
+        .btn-4 {
+          background-color: #81d246;
+          color: white;
+        }
+      }
+    }
+  }
